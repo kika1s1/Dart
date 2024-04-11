@@ -36,6 +36,7 @@ class _QuizState extends State<Quiz> {
 
   void restartQuiz() {
     setState(() {
+      _selectedAnswers = [];
       _activeScreen = 'questions-screen';
     });
   }
@@ -58,7 +59,6 @@ class _QuizState extends State<Quiz> {
     }
 
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Container(
           decoration: const BoxDecoration(
