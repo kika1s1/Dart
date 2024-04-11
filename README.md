@@ -1,6 +1,12 @@
-# quiz
+# Quiz App using flutter.
+# Start Screen
 
-A new Flutter project.
+<img src="proImage/startScreen.png">
+
+# Questions Screen.
+<img src="proImage/question.png">
+# Summary Screen.
+<img src="proImage/summary.png">
 
 ## Getting Started
 
