@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:expense_tracker/expenses.dart';
 
 void main(){
   runApp(
@@ -7,7 +8,7 @@ void main(){
         appBar: AppBar(
           title: const Text("expense track"),
         ),
-        body: const Text("hh"),
+        body: const Expenses(),
       ),
 
     ),
