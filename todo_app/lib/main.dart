@@ -13,7 +13,8 @@ const MyApp({super.key});
     return  MaterialApp(
       debugShowCheckedModeBanner:false,
       theme: ThemeData(
-        primarySwatch: Colors.green,
+        primarySwatch:  Colors.green,
+      
       ),
       home: Scaffold(
         backgroundColor: Colors.green[300],
